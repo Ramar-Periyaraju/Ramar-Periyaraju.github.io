@@ -38,11 +38,11 @@ social:
   email: ramar.periyaraju@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://x.com/PeriyarajuRamar # change to your twitter homepage
+    - https://github.com/Ramar-Periyaraju # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.facebook.com/ramar.periyaraju.14
+    - https://www.linkedin.com/in/ramarperiyaraju/
 
 # Site Verification Settings
 webmaster_verifications:

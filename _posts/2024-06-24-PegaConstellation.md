@@ -1,6 +1,6 @@
 ---
 title: About Pega Constellation Architecture
-date: 2024-06-20 20:11 +0300
+date: 2024-06-24 20:11 +0300
 categories: [Pega, UI]
 tags: [Pega, Pega Constellation, Architecture, UI]
 author: Ramar Periyaraju

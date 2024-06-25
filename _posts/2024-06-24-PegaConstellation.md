@@ -1,5 +1,5 @@
 ---
-title: About Claude 3.5
+title: About Pega Constellation Architecture
 date: 2024-06-20 20:11 +0300
 categories: [Pega, UI]
 tags: [Pega, Pega Constellation, Architecture, UI]
@@ -10,7 +10,7 @@ author: Ramar Periyaraju
 
 The architecture diagram illustrates how the Constellation UX framework integrates with both the Pega system and an alternate design system, showing the different layers and components involved in delivering the user interface and user experience.
 
-![Desktop View](/assets/lib/img/ConstellationDiagram.png)
+![Desktop View](/assets/img/ConstellationDiagram.png)
 
 ### Key Components
 

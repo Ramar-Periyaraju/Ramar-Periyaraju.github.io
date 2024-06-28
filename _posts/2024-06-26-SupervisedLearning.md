@@ -1,7 +1,7 @@
 ---
 title: Supervised Learning Linear Regression, Cost Function, and Gradient Descent
 date: 2024-06-27 22:00 +0300
-categories: [AI, Machine Learning, Supervised Learning]
+categories: [AI, Machine Learning, Deep Learning, Supervised Learning]
 tags:
   [
     Machine Learning,

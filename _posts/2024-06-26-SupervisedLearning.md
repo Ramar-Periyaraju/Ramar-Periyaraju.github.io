@@ -1,8 +1,15 @@
 ---
-title: Supervised Learning: Linear Regression, Cost Function, and Gradient Descent
+title: Supervised Learning --> Linear Regression, Cost Function, and Gradient Descent
 date: 2024-06-27 22:00 +0300
-categories: [Machine Learning, Supervised Learning]
-tags: [Machine Learning, Supervised Learning, Linear Regression, Cost Function, Gradient Descent]
+categories: [AI, Machine Learning, Supervised Learning]
+tags:
+  [
+    Machine Learning,
+    Supervised Learning,
+    Linear Regression,
+    Cost Function,
+    Gradient Descent,
+  ]
 author: Ramar Periyaraju
 ---
 

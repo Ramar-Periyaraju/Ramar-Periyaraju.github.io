@@ -12,18 +12,18 @@ Supervised learning is a fundamental concept in machine learning where models ar
 
 ## What is Supervised Learning?
 
-Supervised learning involves training a model on a labeled dataset, which means that each training example is paired with an output label. The goal is to learn a mapping from inputs to outputs that can be used to predict the labels of new, unseen data[1][2].
+Supervised learning involves training a model on a labeled dataset, which means that each training example is paired with an output label. The goal is to learn a mapping from inputs to outputs that can be used to predict the labels of new, unseen data.
 
 ### Example Use Cases
 
 - **Customer sentiment analysis**: Identifying and characterizing critical information inside massive amounts of brand sentiment data.
 - **Object and image recognition**: Locating, isolating, and classifying objects in images and videos.
 - **Predictive analytics**: Developing systems to deliver insights into various data points.
-- **Spam detection**: Classifying emails as spam or non-spam based on patterns in the data[1][2].
+- **Spam detection**: Classifying emails as spam or non-spam based on patterns in the data.
 
 ## Linear Regression
 
-Linear regression is a type of supervised learning algorithm used for predicting a continuous output variable based on one or more input features. It assumes a linear relationship between the dependent variable (output) and the independent variables (input)[4].
+Linear regression is a type of supervised learning algorithm used for predicting a continuous output variable based on one or more input features. It assumes a linear relationship between the dependent variable (output) and the independent variables (input).
 
 ### Simple Linear Regression
 
@@ -63,7 +63,7 @@ The goal is to minimize the cost function to find the best-fitting line.
 
 ## Gradient Descent
 
-Gradient descent is an optimization algorithm used to minimize the cost function by iteratively adjusting the model parameters. The algorithm updates the parameters in the direction of the negative gradient of the cost function[4].
+Gradient descent is an optimization algorithm used to minimize the cost function by iteratively adjusting the model parameters. The algorithm updates the parameters in the direction of the negative gradient of the cost function.
 
 ### Steps in Gradient Descent
 
@@ -88,8 +88,3 @@ Using the house price prediction example, gradient descent would iteratively adj
 ## Conclusion
 
 Supervised learning, particularly linear regression, is a powerful tool for making predictions based on labeled data. Understanding the concepts of cost function and gradient descent is crucial for optimizing these models. By leveraging these techniques, developers can build accurate and efficient machine learning models for a variety of applications.
-
-[1]: https://www.explorium.ai/blog/machine-learning/supervised-learning/
-[2]: https://kili-technology.com/data-labeling/machine-learning
-[3]: https://www.javatpoint.com/supervised-machine-learning
-[4]: https://www.geeksforgeeks.org/ml-linear-regression/

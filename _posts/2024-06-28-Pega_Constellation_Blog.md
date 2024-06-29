@@ -1,6 +1,6 @@
 ---
-title: Pega constellation
-date: 2024-06-27 21:00 +0300
+title: What is Pega constellation ?
+date: 2024-06-28 21:00 +0300
 categories: [Pega, Constellation]
 tags: [Pega, DX API, Constellation]
 author: Ramar Periyaraju

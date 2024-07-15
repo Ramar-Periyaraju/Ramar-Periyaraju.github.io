@@ -6,7 +6,7 @@ tags: [Pega, Pega Constellation, Architecture, UI]
 author: Ramar Periyaraju
 ---
 
-### Overview
+## Overview
 
 The architecture diagram illustrates how the Constellation UX framework integrates with both the Pega system and an alternate design system, showing the different layers and components involved in delivering the user interface and user experience.
 

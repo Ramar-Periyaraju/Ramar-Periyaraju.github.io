@@ -1,6 +1,6 @@
 ---
 title: About AWS Aurora ?
-date: 2024-06-28 21:00 +0300
+date: 2024-07-15 21:00 +0300
 categories: [AWS]
 tags: [Aurora, Database]
 author: Ramar Periyaraju
@@ -38,6 +38,26 @@ Amazon Aurora is a high-performance, cloud-optimized relational database service
 
 - **Auto-Expanding Storage**: Aurora's storage automatically expands from 10GB to 128TB as needed, eliminating the need for manual scaling.
 
+## Additional Features of Aurora
+
+- **Automatic Failover**: Ensures high availability and minimal downtime by automatically failing over to a standby instance in the event of a failure.
+
+- **Backup and Recovery**: Provides automated backup and recovery options to protect your data.
+
+- **Isolation and Security**: Offers robust isolation and security features to protect your data.
+
+- **Industry Compliance**: Complies with various industry standards to meet regulatory requirements.
+
+- **Push-Button Scaling**: Allows for easy and quick scaling of resources to meet changing demands.
+
+- **Automated Patching with Zero Downtime**: Applies patches and updates automatically without causing any downtime.
+
+- **Advanced Monitoring**: Provides comprehensive monitoring tools to track performance and health.
+
+- **Routine Maintenance**: Handles routine maintenance tasks automatically.
+
+- **Backtrack**: Allows you to restore your data to any point in time without using backups.
+
 ## Conclusion
 
-Amazon Aurora is a powerful, cloud-optimized database service that offers significant performance improvements and high availability compared to traditional RDS offerings. With features like rapid failover, extensive read replicas, and automatic scaling, Aurora is an excellent choice for applications requiring robust performance and reliability.
+Amazon Aurora is a powerful, cloud-optimized database service that offers significant performance improvements and high availability compared to traditional RDS offerings. With features like rapid failover, extensive read replicas, automatic scaling, and robust security, Aurora is an excellent choice for applications requiring robust performance and reliability.

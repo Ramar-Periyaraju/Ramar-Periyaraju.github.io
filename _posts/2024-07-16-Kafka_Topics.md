@@ -1,6 +1,6 @@
 ---
 title: About Topics in Kafka
-date: 2024-06-20 22:11 +0300
+date: 2024-07-2016 22:11 +0300
 categories: [Kafka]
 tags: [Kafka, Topis]
 author: Ramar Periyaraju

@@ -1,6 +1,6 @@
 ---
 title: About Producers in Kafka
-date: 2024-07-2016 22:11 +0300
+date: 2024-07-16 22:11 +0300
 categories: [Kafka]
 tags: [Kafka, Producers]
 author: Ramar Periyaraju

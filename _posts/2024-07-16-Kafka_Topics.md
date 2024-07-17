@@ -2,7 +2,7 @@
 title: About Topics in Kafka
 date: 2024-07-2016 22:11 +0300
 categories: [Kafka]
-tags: [Kafka, Topis]
+tags: [Kafka, Topics]
 author: Ramar Periyaraju
 ---
 
@@ -33,3 +33,17 @@ Imagine you have a fleet of trucks, and each truck reports its GPS position to K
 You could create a topic named `trucks_gps` that contains the position of all trucks. Suppose this topic is created with 10 partitions. Once the topic is created, you can display the data on a location dashboard.
 
 This setup allows you to efficiently manage and process the GPS data from all the trucks, leveraging Kafka's partitioning and offset mechanisms to handle large volumes of data and ensure the order within partitions.
+
+### Topics, Partitions, and Offsets - Important Notes
+
+1. **Immutability of Data**: Once data is written to a partition, it cannot be changed. This ensures data integrity and consistency.
+2. **Data Retention**: Data is kept for a limited time (default is one week, configurable). This helps manage storage and maintain performance.
+3. **Partition-Specific Offsets**: Offsets only have meaning within their specific partition. For example, offset 3 in partition 0 does not represent the same data as offset 3 in partition 1. Offsets are unique and never reused, even if previous messages are deleted.
+4. **Guaranteed Order Within Partitions**: Order is guaranteed only within a partition and not across partitions. This means that messages in a partition will be read in the order they were written.
+5. **Random Data Assignment**: Data is assigned randomly to partitions unless a key is provided, which allows for more control over data distribution.
+
+### Example Scenario
+
+- **Fleet of Trucks**: Suppose you have a fleet of trucks, and each truck reports its GPS position to Kafka every 20 seconds. Each message contains the truck ID and its position (latitude and longitude).
+- **Kafka Topic**: Create a topic named `trucks_gps` to contain the positions of all trucks, with 10 partitions.
+- **Dashboard Display**: Once the topic is created, you can display the location data on a dashboard.
